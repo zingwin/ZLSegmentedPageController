@@ -22,7 +22,7 @@
     [self.navigationBar setBackgroundImage:[self createImageWithColor:[UIColor clearColor]] forBarMetrics:UIBarMetricsDefault];
     
     [self.navigationBar setShadowImage:[self createImageWithColor:[UIColor clearColor]]];
-    [self.navigationBar setTintColor:[UIColor whiteColor]];
+    [self.navigationBar setTintColor:[UIColor blueColor]];
     [self.navigationBar setTranslucent:YES];
 }
 
