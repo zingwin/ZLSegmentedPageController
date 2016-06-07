@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAE537DD1D0529E20089B5E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE537DC1D0529E20089B5E2 /* main.m */; };
+		AAE537E01D0529E20089B5E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE537DF1D0529E20089B5E2 /* AppDelegate.m */; };
+		AAE537E31D0529E20089B5E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE537E21D0529E20089B5E2 /* ViewController.m */; };
+		AAE537E61D0529E20089B5E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE537E41D0529E20089B5E2 /* Main.storyboard */; };
+		AAE537E81D0529E20089B5E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE537E71D0529E20089B5E2 /* Assets.xcassets */; };
+		AAE537EB1D0529E20089B5E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE537E91D0529E20089B5E2 /* LaunchScreen.storyboard */; };
+		AAE537F51D052A290089B5E2 /* ZLSegmentedView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE537F41D052A290089B5E2 /* ZLSegmentedView.m */; };
+		AAE537F81D052AF40089B5E2 /* ZLSegmentedPageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE537F71D052AF40089B5E2 /* ZLSegmentedPageHeader.m */; };
+		AAE537FD1D052BEC0089B5E2 /* ZLSegmentedPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE537FC1D052BEC0089B5E2 /* ZLSegmentedPageController.m */; };
+		AAE538001D05689B0089B5E2 /* Test1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE537FF1D05689B0089B5E2 /* Test1VC.m */; };
+		AAE538071D0569B70089B5E2 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE538021D0569B70089B5E2 /* CollectionViewController.m */; };
+		AAE538081D0569B70089B5E2 /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE538031D0569B70089B5E2 /* CollectionViewController.xib */; };
+		AAE538091D0569B70089B5E2 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE538051D0569B70089B5E2 /* TableViewController.m */; };
+		AAE5380A1D0569B70089B5E2 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE538061D0569B70089B5E2 /* TableViewController.xib */; };
+		AAE5380C1D056A900089B5E2 /* listdownload.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAE5380B1D056A900089B5E2 /* listdownload.jpg */; };
+		AAE5380F1D056B830089B5E2 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE5380E1D056B830089B5E2 /* NavigationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAE537D81D0529E20089B5E2 /* ZLSegmentedPageController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLSegmentedPageController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE537DC1D0529E20089B5E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAE537DE1D0529E20089B5E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAE537DF1D0529E20089B5E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAE537E11D0529E20089B5E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAE537E21D0529E20089B5E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAE537E51D0529E20089B5E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAE537E71D0529E20089B5E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAE537EA1D0529E20089B5E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAE537EC1D0529E20089B5E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE537F31D052A290089B5E2 /* ZLSegmentedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSegmentedView.h; sourceTree = "<group>"; };
+		AAE537F41D052A290089B5E2 /* ZLSegmentedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLSegmentedView.m; sourceTree = "<group>"; };
+		AAE537F61D052AF40089B5E2 /* ZLSegmentedPageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSegmentedPageHeader.h; sourceTree = "<group>"; };
+		AAE537F71D052AF40089B5E2 /* ZLSegmentedPageHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLSegmentedPageHeader.m; sourceTree = "<group>"; };
+		AAE537F91D052B8C0089B5E2 /* ZLSegmentedPageControllerHeaderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSegmentedPageControllerHeaderProtocol.h; sourceTree = "<group>"; };
+		AAE537FA1D052BB10089B5E2 /* ZLSegmentedControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSegmentedControllerDelegate.h; sourceTree = "<group>"; };
+		AAE537FB1D052BEC0089B5E2 /* ZLSegmentedPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSegmentedPageController.h; sourceTree = "<group>"; };
+		AAE537FC1D052BEC0089B5E2 /* ZLSegmentedPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLSegmentedPageController.m; sourceTree = "<group>"; };
+		AAE537FE1D05689B0089B5E2 /* Test1VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1VC.h; sourceTree = "<group>"; };
+		AAE537FF1D05689B0089B5E2 /* Test1VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1VC.m; sourceTree = "<group>"; };
+		AAE538011D0569B70089B5E2 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		AAE538021D0569B70089B5E2 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		AAE538031D0569B70089B5E2 /* CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
+		AAE538041D0569B70089B5E2 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		AAE538051D0569B70089B5E2 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		AAE538061D0569B70089B5E2 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		AAE5380B1D056A900089B5E2 /* listdownload.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = listdownload.jpg; sourceTree = "<group>"; };
+		AAE5380D1D056B830089B5E2 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		AAE5380E1D056B830089B5E2 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAE537D51D0529E20089B5E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAE537CF1D0529E20089B5E2 = {
+			isa = PBXGroup;
+			children = (
+				AAE537DA1D0529E20089B5E2 /* ZLSegmentedPageController */,
+				AAE537D91D0529E20089B5E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAE537D91D0529E20089B5E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAE537D81D0529E20089B5E2 /* ZLSegmentedPageController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAE537DA1D0529E20089B5E2 /* ZLSegmentedPageController */ = {
+			isa = PBXGroup;
+			children = (
+				AAE538011D0569B70089B5E2 /* CollectionViewController.h */,
+				AAE538021D0569B70089B5E2 /* CollectionViewController.m */,
+				AAE538031D0569B70089B5E2 /* CollectionViewController.xib */,
+				AAE538041D0569B70089B5E2 /* TableViewController.h */,
+				AAE538051D0569B70089B5E2 /* TableViewController.m */,
+				AAE538061D0569B70089B5E2 /* TableViewController.xib */,
+				AAE537F21D052A0A0089B5E2 /* ZLSegmentedPageController */,
+				AAE537DE1D0529E20089B5E2 /* AppDelegate.h */,
+				AAE537DF1D0529E20089B5E2 /* AppDelegate.m */,
+				AAE537E11D0529E20089B5E2 /* ViewController.h */,
+				AAE537E21D0529E20089B5E2 /* ViewController.m */,
+				AAE537E41D0529E20089B5E2 /* Main.storyboard */,
+				AAE537E71D0529E20089B5E2 /* Assets.xcassets */,
+				AAE537E91D0529E20089B5E2 /* LaunchScreen.storyboard */,
+				AAE537EC1D0529E20089B5E2 /* Info.plist */,
+				AAE537DB1D0529E20089B5E2 /* Supporting Files */,
+				AAE537FE1D05689B0089B5E2 /* Test1VC.h */,
+				AAE537FF1D05689B0089B5E2 /* Test1VC.m */,
+				AAE5380B1D056A900089B5E2 /* listdownload.jpg */,
+				AAE5380D1D056B830089B5E2 /* NavigationViewController.h */,
+				AAE5380E1D056B830089B5E2 /* NavigationViewController.m */,
+			);
+			path = ZLSegmentedPageController;
+			sourceTree = "<group>";
+		};
+		AAE537DB1D0529E20089B5E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAE537DC1D0529E20089B5E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAE537F21D052A0A0089B5E2 /* ZLSegmentedPageController */ = {
+			isa = PBXGroup;
+			children = (
+				AAE537F31D052A290089B5E2 /* ZLSegmentedView.h */,
+				AAE537F41D052A290089B5E2 /* ZLSegmentedView.m */,
+				AAE537F61D052AF40089B5E2 /* ZLSegmentedPageHeader.h */,
+				AAE537F71D052AF40089B5E2 /* ZLSegmentedPageHeader.m */,
+				AAE537F91D052B8C0089B5E2 /* ZLSegmentedPageControllerHeaderProtocol.h */,
+				AAE537FA1D052BB10089B5E2 /* ZLSegmentedControllerDelegate.h */,
+				AAE537FB1D052BEC0089B5E2 /* ZLSegmentedPageController.h */,
+				AAE537FC1D052BEC0089B5E2 /* ZLSegmentedPageController.m */,
+			);
+			path = ZLSegmentedPageController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAE537D71D0529E20089B5E2 /* ZLSegmentedPageController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE537EF1D0529E20089B5E2 /* Build configuration list for PBXNativeTarget "ZLSegmentedPageController" */;
+			buildPhases = (
+				AAE537D41D0529E20089B5E2 /* Sources */,
+				AAE537D51D0529E20089B5E2 /* Frameworks */,
+				AAE537D61D0529E20089B5E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLSegmentedPageController;
+			productName = ZLSegmentedPageController;
+			productReference = AAE537D81D0529E20089B5E2 /* ZLSegmentedPageController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAE537D01D0529E20089B5E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hitao;
+				TargetAttributes = {
+					AAE537D71D0529E20089B5E2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = AAE537D31D0529E20089B5E2 /* Build configuration list for PBXProject "ZLSegmentedPageController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAE537CF1D0529E20089B5E2;
+			productRefGroup = AAE537D91D0529E20089B5E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAE537D71D0529E20089B5E2 /* ZLSegmentedPageController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAE537D61D0529E20089B5E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE538081D0569B70089B5E2 /* CollectionViewController.xib in Resources */,
+				AAE537EB1D0529E20089B5E2 /* LaunchScreen.storyboard in Resources */,
+				AAE537E81D0529E20089B5E2 /* Assets.xcassets in Resources */,
+				AAE5380C1D056A900089B5E2 /* listdownload.jpg in Resources */,
+				AAE5380A1D0569B70089B5E2 /* TableViewController.xib in Resources */,
+				AAE537E61D0529E20089B5E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAE537D41D0529E20089B5E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE538071D0569B70089B5E2 /* CollectionViewController.m in Sources */,
+				AAE537E31D0529E20089B5E2 /* ViewController.m in Sources */,
+				AAE5380F1D056B830089B5E2 /* NavigationViewController.m in Sources */,
+				AAE537FD1D052BEC0089B5E2 /* ZLSegmentedPageController.m in Sources */,
+				AAE537F81D052AF40089B5E2 /* ZLSegmentedPageHeader.m in Sources */,
+				AAE538091D0569B70089B5E2 /* TableViewController.m in Sources */,
+				AAE537F51D052A290089B5E2 /* ZLSegmentedView.m in Sources */,
+				AAE538001D05689B0089B5E2 /* Test1VC.m in Sources */,
+				AAE537E01D0529E20089B5E2 /* AppDelegate.m in Sources */,
+				AAE537DD1D0529E20089B5E2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAE537E41D0529E20089B5E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAE537E51D0529E20089B5E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAE537E91D0529E20089B5E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAE537EA1D0529E20089B5E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAE537ED1D0529E20089B5E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAE537EE1D0529E20089B5E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAE537F01D0529E20089B5E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZLSegmentedPageController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zwin.ZLSegmentedPageController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAE537F11D0529E20089B5E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZLSegmentedPageController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zwin.ZLSegmentedPageController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAE537D31D0529E20089B5E2 /* Build configuration list for PBXProject "ZLSegmentedPageController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE537ED1D0529E20089B5E2 /* Debug */,
+				AAE537EE1D0529E20089B5E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE537EF1D0529E20089B5E2 /* Build configuration list for PBXNativeTarget "ZLSegmentedPageController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE537F01D0529E20089B5E2 /* Debug */,
+				AAE537F11D0529E20089B5E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAE537D01D0529E20089B5E2 /* Project object */;
+}
